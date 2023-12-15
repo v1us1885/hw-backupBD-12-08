@@ -54,13 +54,13 @@
 
 2.1. Пример команды резервирования и восстановления:   
 - Резервирование (pg_dump):   
-  ```
+```
   pg_dump -U username -h localhost -d dbname -f backup.sql
-  ```
+```
 - Восстановление (pg_restore):   
-  ```
+```
 pg_restore -U username -h localhost -d dbname backup.sql
-  ```
+```
 2.1. Автоматизация процесса:
 
 Да, процесс автоматизации возможен:   
